@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Metamorphous-Regular.ttf.ttx, src/Metamorphous-Regular.otf.ttx, src/Metamorphous-Regular-OTF.sfd,
+  src/Metamorphous-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
